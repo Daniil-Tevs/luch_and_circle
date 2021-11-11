@@ -18,7 +18,10 @@ int main() {
     }
     else if(M0_x==M1_x && M0_y!=M1_y)
     {
-
+        if(M0_x>=K_x-R && M0_x<=K_x+R)
+            std::cout<<"Peresekaet";
+        else
+            std::cout<<"Ne peresekaet";
     }
     else
         std::cout<<"Points are equal";
